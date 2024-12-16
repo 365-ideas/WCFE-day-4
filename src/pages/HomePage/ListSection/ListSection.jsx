@@ -7,7 +7,7 @@ import clsx from "clsx";
 import { motion } from "framer-motion";
 import { anim, ListAnim } from "@/helpers/anim";
 
-export const ListSection = () => {
+const ListSection = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleSetActive = (index) => {
@@ -59,3 +59,5 @@ export const ListSection = () => {
     </div>
   );
 };
+
+export default ListSection;

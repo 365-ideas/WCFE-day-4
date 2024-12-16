@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import s from "./HomePage.module.scss";
-import { ListSection } from "./ListSection/ListSection";
 import { motion } from "framer-motion";
 import { anim, TitlePresence } from "@/helpers/anim";
+import ListSection from "./ListSection/ListSection";
 
 export default function HomePage() {
   return (
