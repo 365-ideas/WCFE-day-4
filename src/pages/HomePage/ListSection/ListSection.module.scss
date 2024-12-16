@@ -1,0 +1,69 @@
+.list {
+  margin-top: VW(120);
+  .grid {
+    display: grid;
+    grid-template-columns: VW(1000) VW(200) VW(100) VW(400);
+    justify-content: space-between;
+    position: relative;
+
+    & > p:nth-last-of-type(1) {
+      text-align: end;
+    }
+  }
+
+  .top {
+    padding: VW(20) 0;
+  }
+
+  .mainItem {
+    position: relative;
+    
+    .head {
+      padding: VW(20) 0;
+      cursor: pointer;
+      transition: opacity .3s ease;
+  
+      @include hover {
+        opacity: 0.6;
+      }
+    }
+
+    &__active {
+      .content {
+        padding-bottom: VW(20) !important;
+        height: VW(200) !important;
+
+        .image {
+          transition-delay: .6s !important;
+          opacity: 1 !important;
+        }
+      }
+    }
+
+    .content {
+      padding-bottom: 0;
+      grid-column: 1/5;
+      height: 0;
+      transition: all .8s $easeInOutExpo ;
+
+      .image {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        grid-column: 2/5;
+        opacity: 0;
+
+        transition: opacity .5s ease;
+      }
+    }
+  }
+
+  .line {
+    position: absolute;
+    height: VW(1);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $g-50;
+  }
+}

@@ -4,7 +4,7 @@
 
 .body {
   @extend %body-text;
-  background-color: #000;
+  background-color: $c-black;
   color: $c-white;
   overflow-x: hidden;
   opacity: 1;
@@ -52,7 +52,7 @@
 }
 
 .shadow {
-  color: $g-100;
+  color: $g-50;
 }
 
 .main {

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Zaporizhzhia and Kryvyi Rih",
+    "day": "December 6",
+    "year": "2024",
+    "victims": "12 killed",
+    "image": "/images/listImages/1.png"
+  },
+  {
+    "name": "Extensive infrastructure damage; casualties unreported.",
+    "day": "November 26",
+    "year": "2024",
+    "victims": "Unknown",
+    "image": "/images/listImages/2.png"
+  },
+  {
+    "name": "Mykolaiv, Nikopol, Odesa, and Lviv.",
+    "day": "November 17",
+    "year": "2024",
+    "victims": "7 killed",
+    "image": "/images/listImages/3.png"
+  },
+  {
+    "name": "Multiple Cities Nationwide: dozens injured in widespread attacks.",
+    "day": "August 26",
+    "year": "2024",
+    "victims": "7 killed",
+    "image": "/images/listImages/4.png"
+  },
+  {
+    "name": "Pavlohrad",
+    "day": "January 23",
+    "year": "2024",
+    "victims": "1 killed, 22 injured",
+    "image": "/images/listImages/5.png"
+  },
+  {
+    "name": "Kherson Oblast",
+    "day": "January 23",
+    "year": "2024",
+    "victims": "4 killed in air strikes.",
+    "image": "/images/listImages/6.png"
+  }
+]

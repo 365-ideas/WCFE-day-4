@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: VW(30) VW(40) 0;
+
+  .logo {
+    width: VW(54);
+    height: VW(34);
+    position: relative;
+  }
+
+  .right {
+    display: flex;
+    gap: VW(160);
+    text-transform: uppercase;
+
+    .nav {
+      display: flex;
+      gap: VW(20);
+
+      &__link {
+        color: $g-50;
+        transition: color 0.4s ease;
+
+        @include hover {
+          color: $c-white;
+        }
+      }
+    }
+  }
+}
